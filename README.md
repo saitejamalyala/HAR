@@ -31,7 +31,7 @@
 	    <em>Processed and Augmented Images</em>
 	</p>
 	
-* **Model Architecture:**
+* **[Model Architecture:](https://github.com/saitejamalyala/HAR/blob/main/media/model_architecture.png)**
 	<p align="center">
 	  <img src="media/model_architecture.png" />
 	</p>
