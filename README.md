@@ -4,24 +4,24 @@
 
 ### *Paper*: [Human Activity Recognition Using LSTM]()
 
-### **For Running the script follow the [instructions here](https://github.com/saitejamalyala/HAR/blob/main/HAR/README.md#instructions-to-run-the-script) or run the same using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NT3deC4z0B6B1Z7L_-MWMvVzBjH2Yz3n?usp=sharing)**
+### **For Running the script follow the [instructions here](https://github.com/saitejamalyala/HAR/blob/main/README.md#instructions-to-run-the-script) or run the same using [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NT3deC4z0B6B1Z7L_-MWMvVzBjH2Yz3n?usp=sharing)**
 *Change the hyper parameters in ```constants.py```*
 
 1. [Input Pipeline]()- 
     * [HAPT Dataset](https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) (Training set- Users(1-21), Test set-Users(22-27), validation set-Users(28-30)
     * Data Denoising
     * Z Score normalization
-2. [Model Architecture](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/models/model_arch.py)
-3. [Training Routine](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L50)
+2. [Model Architecture](https://github.com/saitejamalyala/HAR/blob/main/models/model_arch.py)
+3. [Training Routine](https://github.com/saitejamalyala/HAR/blob/main/main.py#L50)
 4. Model CallBacks:
-    * [Check point Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L33) - For saving model at desired interval(epoch frequency)
-    * [Tensorboard Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L25) - For logging training stats,Profiling
-    * [CSV Logger Callback](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L40) - To save training logs in a csv file
+    * [Check point Callback](https://github.com/saitejamalyala/HAR/blob/main/main.py#L33) - For saving model at desired interval(epoch frequency)
+    * [Tensorboard Callback](https://github.com/saitejamalyala/HAR/blob/main/main.py#L25) - For logging training stats,Profiling
+    * [CSV Logger Callback](https://github.com/saitejamalyala/HAR/blob/main/main.py#L40) - To save training logs in a csv file
 6.Hyper parameter tuning
-7. [Evaluation](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/d8fa7a96e5d6b1076e6ace9a0188cba215939dde/HAR/main.py#L58)
-    * [Confusion Matrix](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/tree/master/HAR#confusion-matrix-in-)
-    * [Classification Report](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/tree/master/HAR#classification-report)
-8. [Visualization](https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/test_data.png)
+7. [Evaluation](https://github.com/saitejamalyala/HAR/blob/main/main.py#L58)
+    * [Confusion Matrix](https://github.com/saitejamalyala/HAR/blob/main/README.md#confusion-matrix-in-)
+    * [Classification Report](https://github.com/saitejamalyala/HAR/blob/main/README.md#classification-report)
+8. [Visualization](https://github.com/saitejamalyala/HAR/blob/main/media/test_data.png)
 ## Outputs from several stages of project
 * **Peek into a sample set from Training Data:**
 	<p align="center">
