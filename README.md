@@ -25,7 +25,7 @@
 ## Outputs from several stages of project
 * **Peek into a sample set from Training Data:**
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/sample_train.png" /> 
+	  <img src="media/sample_train.png" /> 
 	</p>
 	<p align="center">
 	    <em>Processed and Augmented Images</em>
@@ -33,16 +33,16 @@
 	
 * **Model Architecture:**
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/model_architecture.png" />
+	  <img src="media/model_architecture.png" />
 	</p>
 	<p align="center">
 	    <em>Model Architecture</em>
 	</p>
 * **Training Results:**
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/epoch_accuracy.svg" height="200" />
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/epoch_loss.svg" height="200"/>
-	  <img src=https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/legend.PNG />
+	  <img src="media/epoch_accuracy.svg" height="200" />
+	  <img src="media/epoch_loss.svg" height="200"/>
+	  <img src=HAR/media/legend.PNG />
 	</p>
 <p align="center">
     <em><b>(a) Epochs vs Accuracy &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp;(b) Epochs vs Loss</b></em>
@@ -117,7 +117,7 @@
 	* #### Test accuracy - 90.35%
 	* #### Confusion Matrix (in %):
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/normalized_cm.png" width="600" height="580"/>
+	  <img src="media/normalized_cm.png" width="600" height="580"/>
 	</p>
 
 	* #### Classification report:
@@ -243,7 +243,7 @@
 * **Visualization of predictions on a piece of test data set:**
 
 	<p align="center">
-	  <img src="https://github.tik.uni-stuttgart.de/iss/dl-lab-2020-team14/blob/master/HAR/media/test_data.png" />
+	  <img src="media/test_data.png" />
 	</p>
 	
   	
