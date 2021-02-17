@@ -144,27 +144,10 @@ cython_debug/
 
 #manually added
 #datasets
-diabetic_retinopathy/IDRID_dataset/
 
 # Custom
-#diabetic_retinopathy/Notused/
-diabetic_retinopathy/log_dir/
-diabetic_retinopathy/weights/*
-diabetic_retinopathy/hp_log_dir
 
-experiments/
-diabetic_retinopathy/Notused/*
-diabetic_retinopathy/Notused/notebooks/*
-diabetic_retinopathy/results/*
-!diabetic_retinopathy/results/.gitkeep
-!diabetic_retinopathy/weights/20201222-220802_ADAM_epochs_100_test_acc_78.h5
-!diabetic_retinopathy/weights/fullmodel_tl_82_acc.h5
-#!diabetic_retinopathy/results/classification_report.csv
-#!diabetic_retinopathy/results/confusionmatrix.png
-
-diabetic_retinopathy/Notused/testing.py
-
-HAR/HAPT_DataSet/
-HAR/log_dir/cpts/20210202-0029/
-HAR/log_dir/cpts/20210202-0052/
-HAR/Notused/
+HAPT_DataSet/
+log_dir/cpts/20210202-0029/
+log_dir/cpts/20210202-0052/
+Notused/
