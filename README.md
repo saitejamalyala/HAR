@@ -114,7 +114,7 @@
 	</tbody>
 	</table>
 * **Results and Evaluation**
-	* #### Test accuracy - 90.35%
+	* #### Test accuracy - **90.35%**
 	* #### Confusion Matrix (in %):
 	<p align="center">
 	  <img src="media/normalized_cm.png" width="600" height="580"/>
