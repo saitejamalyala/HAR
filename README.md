@@ -42,7 +42,7 @@
 	<p align="center">
 	  <img src="media/epoch_accuracy.svg" height="200" />
 	  <img src="media/epoch_loss.svg" height="200"/>
-	  <img src=HAR/media/legend.PNG />
+	  <img src=media/legend.PNG />
 	</p>
 <p align="center">
     <em><b>(a) Epochs vs Accuracy &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &emsp; &emsp;(b) Epochs vs Loss</b></em>
